@@ -1,3 +1,9 @@
 .Odd {
 	background-color: #FFCCBB;
+	font-family: verdana, "Deja Vu", sans-serif;
+}
+
+.Line2 {
+	color: blue;
+	font-size: 36px;
 }
