@@ -19,18 +19,15 @@ body {
 	align-items: center;
 }
 
-.left {
+.left,
+.right {
 	display: flex;
+	gap: 16px;
 }
 
 .left ul {
 	display: flex;
 	gap: 16px;
-}
-
-.right {
-	display: flex;
-	gap: 19px;
 }
 
 .profile-image {
