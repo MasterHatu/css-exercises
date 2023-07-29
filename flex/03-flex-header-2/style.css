@@ -48,6 +48,10 @@ body {
   font-style: italic;
 }
 
+.notifications {
+	align-self: center;
+}
+
 button {
   border: none;
   border-radius: 8px;
