@@ -32,6 +32,7 @@ img {
 	flex-direction: column;
 	align-self: center;
 	align-items: center;
+	max-width: 200px;
 	}
 
 .text {
