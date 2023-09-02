@@ -14,6 +14,9 @@ body {
 	font-size: 32px;
 	font-weight: 900;
 	padding: 0 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .page {
@@ -31,6 +34,7 @@ body {
 .sidebar a {
 	color: #ffffff;
 	text-decoration: none;
+	font-size: 24px;
 }
 
 ul, ol, li {
@@ -39,11 +43,15 @@ ul, ol, li {
 	padding: 0;
 }
 
+li {
+	margin-bottom: 16px;
+}
+
 .content {
 	flex: 1;
 	display: flex;
 	padding: 32px;
-	gap: 32px;
+	gap: 16px;
 	flex-wrap: wrap;
 }
 
@@ -59,5 +67,7 @@ ul, ol, li {
   background: #eee;
   color: darkmagenta;
   flex: 0;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
