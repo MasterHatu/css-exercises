@@ -44,14 +44,14 @@ ul, ol, li {
 	display: flex;
 	padding: 32px;
 	gap: 32px;
+	flex-wrap: wrap;
 }
 
 .card {
 	border: 1px solid #eee;
 	box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
 	border-radius: 4px;
-	flex: 1;
-	width: 300px;
+	flex: 0 0 300px;
 }
 
 .footer {
